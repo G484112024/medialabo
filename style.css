@@ -1,0 +1,47 @@
+body{
+    background:linear-gradient(0.25turn,white,orange);
+}
+div#div1{
+    border:solid;
+    background-color:white;
+    border-width: 3px;
+    border-bottom-style: none;
+    border-color: #3f3f3f;
+    padding: 20px 20px 20px 25px;
+
+}
+h2{
+    color: orange;
+}
+
+div#div3{
+    background-color: white;
+    border: solid;
+    border-color: #3f3f3f;
+    border-bottom-style: none;
+    border-width: 3px;
+    padding: 20px 20px 20px 25px;
+}
+div#div4{
+    background-color: white;
+    border: solid;
+    border-color: #3f3f3f;
+    border-bottom-style: none;
+    border-width: 3px;
+    padding: 20px 20px 20px 25px;
+}
+div#div5{
+    background-color: white;
+    border: solid;
+    border-color: #3f3f3f;
+    border-width: 3px;
+    padding: 20px 20px 20px 25px;
+}
+img.man{
+    float: right;
+    background-color: white;
+    border: solid;
+    border-color: #3f3f3f;
+    border-width: 3px;
+    
+}
