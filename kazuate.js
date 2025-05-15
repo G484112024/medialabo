@@ -18,17 +18,22 @@ hantei();
 function hantei() {
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let yoso = 4;
-  if(kaisu>4){
+  kaisu=kaisu+1;
+  console.log(kaisu+"回目の予想: "+yoso);
+  if(kaisu>=4){
     console.log("答えは4でした．すでにゲームは終わっています");
   }
-  if(kotae<yoso&&kaisu<4){
+  else if(kotae<yoso&&kaisu<4){
     console.log("まちがい.答えはもっと小さいですよ");
   }
-  if(kotae>yoso&&kaisu<4){
+  else if(kotae>yoso&&kaisu<4){
     console.log("まちがい.答えはもっと大きいですよ");
-  }if(kotae===yoso){
+  }else if(kotae===yoso){
+    kaisu=4;
     console.log("正解です.おめでとう！");
+    
   }
+  
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
