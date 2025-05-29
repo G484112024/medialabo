@@ -1,11 +1,24 @@
 
 // 課題3-2 のプログラムはこの関数の中に記述すること
 function print(data) {
-
+  console.log(data.name);
+  console.log(data.coord.lon);
+  console.log(data.coord.lat);
+  console.log(data.weather[0].description);
+  console.log(data.main.temp_max);
+  console.log(data.main.temp_min);
+  console.log(data.main.humidity);
+  console.log(data.wind.speed);
+  console.log(data.wind.deg);
 }
 
 // 課題5-1 の関数 printDom() はここに記述すること
 function printDom(data) {
+  let s =document.querySelector('input#s');
+  console.log(s.value);
+  let u =document.querySelector('ul');
+  let i =document.querySelector('li');
+  
 
 }
 
@@ -89,15 +102,7 @@ let data = {
   "name": "北京市",
   "cod": 200
 };
-function print(data){
-  console.log(data.name);
-  console.log(data.coord.lon);
-  console.log(data.coord.lat);
-  console.log(data.weather[0].description);
-  console.log(data.main.temp_max);
-  console.log(data.main.temp_min);
-  console.log(data.main.humidity);
-  console.log(data.wind.speed);
-  console.log(data.wind.deg);
 
-}
+let b =document.querySelector('button#print');
+b.addEventListener('click',printDom);
+

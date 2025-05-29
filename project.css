@@ -1,15 +1,11 @@
-h1{
-    background-color: #ADD8E6;
-    color: white;
-    text-align: center
+body{
+    background:linear-gradient(0.25turn,#789fc8,#3b6a96);
 }
-h2{
-    background-color: #ADD8E6;
-    color: white;
-    text-align: center
-}
-ul{
-    background-color: #ADD8E6;
-    color: white;
-    text-align: center
+
+li{
+ 
+    border: solid;
+    border-color: #3f3f3f;
+    border-width: 1px;
+   
 }
