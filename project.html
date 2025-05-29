@@ -4,29 +4,23 @@
     <meta charset="utf-8">
     <title>世界の天気</title>
     <link rel="stylesheet" href="project.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
     <script src="weather.js" defer></script>
   </head>
   <body>
    
     <h1>世界の天気</h1>
     <h2>天気の検索結果</h2>  
-    <p><label for="s">都市</label>
-      <input type="search" name="s" id="s">
-      <button id="print">検索</button></p>
+    <select id="citySelect">
+      <option value="">都市を選択してください</option>
+      <option value="1816670">北京市</option>
+    </select>
+    <button id="print">表示</button>
+  
 
-     <ul>
-      <h3>北京</h3>
-    
-  <li> 経度: 116.3972</li> 
-  <li>緯度: 39.9075</li>   
-   <li>天気：曇りがち</li> 
-    <li>最低気温: 9.94</li>
-       <li>最高気温: 9.94</li> 
-           <li>湿度: 14</li>
-              <li>風速: 2.65</li>
-              <li>風向: 197</li>  
+     
  <div id ="result"></div>
 
-    </ul></p>
+  
   </body>
 </html>
