@@ -37,6 +37,13 @@ div#div5{
     border-width: 3px;
     padding: 20px 20px 20px 25px;
 }
+div#div6{
+    background-color: white;
+    border: solid;
+    border-color: #3f3f3f;
+    border-width: 3px;
+    padding: 20px 20px 20px 25px;
+}
 img.man{
     float: right;
     background-color: white;
